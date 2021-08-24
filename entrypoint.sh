@@ -43,12 +43,9 @@ then
 	echo "ERROR: $SOURCE_DIRECTORY does not exist"
 	echo "This directory needs to exist when push-to-another-repository is executed"
 	echo
-	echo "In the example it is created by ./build.sh: https://github.com/cpina/push-to-another-repository-example/blob/main/.github/workflows/ci.yml#L19"
-	echo
 	echo "If you want to copy a directory that exist in the source repository"
 	echo "to the target repository: you need to clone the source repository"
-	echo "in a previous step in the same build section. For example using"
-	echo "actions/checkout@v2. See: https://github.com/cpina/push-to-another-repository-example/blob/main/.github/workflows/ci.yml#L16"
+	echo "in a previous step in the same build section."
 	exit 1
 fi
 

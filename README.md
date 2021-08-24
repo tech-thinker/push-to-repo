@@ -26,7 +26,7 @@ Then make the token available to the Github Action following the steps:
 
 - Go to the Github page for the repository that you push from, click on "Settings"
 - On the left hand side pane click on "Secrets"
-- Click on "Add a new secret" and name it "ACTION_TOKEN_GITHUB"
+- Click on "Add a new secret" and name it "GIT_PAT_TOKEN"
 
 ## Usage
 
