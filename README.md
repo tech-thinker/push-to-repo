@@ -12,6 +12,7 @@ It's useful if you want to push files created with GitHub Actions to another Git
 - **`source-directory`** - the assets you want to push to
 - **`user-name`** - committer name (Optional)
 - **`user-email`** - committer email (Optional)
+- **`commit-message`** - custom commit message (Optional)
 
 - **`API_TOKEN_GITHUB` (env) Personal Access Token (PAT)**
 
